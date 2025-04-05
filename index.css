@@ -1,0 +1,27 @@
+.body{
+    background-color: black;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    border-radius: 30px;
+    height:90px;
+    width:120px;
+}
+h2{
+    color:rgba(0, 255, 128, 0.856);
+}
+h1{
+    color:chocolate;
+}
+a{
+    color:blueviolet;
+}
+li{
+    font-weight:200px;
+    font-size: large;
+}
+p{
+    font-weight: 100px;
+    font-size: x-large;
+}

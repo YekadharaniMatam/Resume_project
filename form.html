@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Registration Form</h1>
+    <br>
+    <form style="text-align:center;">
+       Full Name: <input type="text" placeholder="Enter your  full Name" style="margin-bottom: 30px;"><br>
+       Email Address:<input type="Email" placeholder="Enter your Email" style="margin-bottom: 30px;"><br>
+       Password:     <input type="password" placeholder="Enter your password" style="margin-bottom: 30px;"><br>
+       Date of Birth: <input type="date" style="margin-bottom: 30px;"><br>
+       phone Number: <input type="tel" placeholder="Enter your Phone number" style="margin-bottom: 30px;"><br>
+       <div class="gender-container">
+        <label class="gender-label">Gender:</label>
+        <div class="gender-options">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female" style="margin-bottom: 10px;margin-top: 10px;"> Female</label>
+            <label><input type="radio" name="gender" value="others"> Others</label>
+        </div>
+    </div>
+    <div class="hobbies-container">
+        <label class="hobbies-label">Hobbies:</label>
+        <div class="hobbies-options">
+            <label><input type="checkbox" name="hobbies" > Reading</label>
+            <label><input type="checkbox" name="hobbies" > travelling</label>
+            <label><input type="checkbox" name="hobbies" > Sports</label>
+        </div>
+    </div>
+      
+     country:<input type="text">
+      Adderss: <textarea>
+    
+     </textarea>
+     <br>
+     <input type="button" value="Submit" class="submit_button">
+     <input type="reset" class="reset_button">
+       </form>
+       <style>
+        body{
+        font-family: Arial;
+            background-color: #f8f9fa;
+            align-items:center;
+            height: 100vh;
+        }
+        .submit_button
+        {
+            background-color: red;
+            padding-inline:40px;
+            height:50px;
+            color:white;
+            opacity: 100px;
+        
+        }
+        .reset_button
+        {
+            background-color: blue;
+            color:#f8f9fa;
+            padding-inline:40px;
+            height:50px;
+        margin-top:60px;
+        margin-left: 20px;
+        }
+        .form_cls
+        {
+            align-items: center;
+        }
+        .gender-container {
+            font-family: Arial, sans-serif;
+        }
+        .gender-label {
+            font-weight: bold;
+            margin-right: 190px;
+        }
+        .gender-options {
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 190px;
+            margin-top: 10px;
+        }
+        .hobbies-container {
+            font-family: Arial, sans-serif;
+            margin-top: 10px;
+        }
+        .hobbies-label {
+            font-weight: bold;
+            margin-right: 190px;
+            margin-top: 10px;
+        }
+        .hobbies-options {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 190px;
+            margin-top: 10px;
+        
+        }
+       </style>
+</body>
+</html>
